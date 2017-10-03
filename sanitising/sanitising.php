@@ -17,6 +17,13 @@ if(isset($_REQUEST["email"]))
 	Jouw code toevoegen, zoals hierboven, a.u.b..
 */
 
+/* Code by Mark van Dooremaal */
+if (isset($_POST['submit'])) {
+  $range = filter_var($_POST["range"], FILTER_SANITIZE_NUMBER_INT);
+  echo $range;
+}
+/* End Code by Mark van Dooremaal */
+
 echo "<a href='form.html'>back</a>";
 
 ?>
