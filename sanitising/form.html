@@ -1,22 +1,67 @@
 <!doctype html>
 <html>
+	<head>
+	<style>
+		label{
+color: #B4886B;
+font-weight: bold;
+display: block;
+width: 150px;
+float: left;
+		}
+		input{
+			width: 200px;
+		}
+		span{
+			width: 200px;
+			font-size: 8px;
+		}
+		p{
+		color: grey;
+		}
+	</style>
+	</head>
 	<body>
 		<form action="sanitising.php" method="GET">
-<!-- Number, CEM -->			
-    <label>Number: </label> <input name="" type="text"></input><span>Cem</span></br>
-		<label>Color</label> <input name="" type="text"></input><span>Cem</span></br> 
-<!-- Email, ilias -->			
-		<label>Email: </label> <input name="" type="text"></input><span>Ilias</span></br>
-<!-- Email, ilias -->			
+		
+<!-- Number, int  CEM -->			
+    <label>Number: </label> <input name="" type="text"></input><span>Cem den Ouden</span></br>
+<!-- Einde Number, int  CEM -->
+			
+<!-- Color, Max -->			
+		<label>Color</label> <input name="" type="color"></input><span>Cem den Ouden,Max Verhaagen</span></br> 
+<!-- Einde Color, Max -->
+			
+<!-- Email, Hjalmar -->			
+		<label>Email: </label> <input name="" type="text"></input><span>Hjalmar</span></br>
+<!-- Einde Email, Hjalmar -->			
+
+<!-- username, ilias -->			
 		<label>username: </label> <input name="" type="text"></input><span>Ilias</span></br>
+<!-- Einde username, ilias -->		
+	
+<!-- URL, Bart Middelberg -->			
+		<label>URL</label> <input name="" type="text"></input><span> Bart</span></br>
+<!-- Einde URL, Bart Middelberg -->			
+
 <!-- Rekeningnummer, Dalí -->			
 		<label>Rekeningnummer</label> <input name="" type="text"></input><span> Dalí</span></br>
+<!-- Einde Rekeningnummer, Dalí -->			
+
 <!-- Rekeningnummer, Noah -->			
     <label>Bestand:</label><input name="myFile" type="file"></input><span>Noah</span></br> 
+<!-- Einde Rekeningnummer, Noah -->			
+
 <!-- Rekeningnummer, Juul -->			
 		<label>ID:</label> <input name="" type="text"></input><span>Juul</span></br>
-<!-- Rekeningnummer, Dalí -->			
-			<input type="submit"></submit>	
+<!-- Einde Rekeningnummer, Juul -->			
+
+		<input type="submit"></submit>	
 		</form>
+		<p>
+		Bijvoorbeeld: date, float, number, color, id, naam, email, url, postcode... etc<br>
+		Verzin zelf iets.<br>
+		Wat zou je in je carriere als input van de gebruiker verwachten..
+		</p>
 	</body>
 </html>
